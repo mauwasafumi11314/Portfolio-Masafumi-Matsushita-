@@ -1,11 +1,9 @@
-Python 3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
-Type "help", "copyright", "credits" or "license()" for more information.
 import arcpy
 
 # Define the workspace - adjust the path to your geodatabase or directory containing the output rasters
 arcpy.env.workspace = r"D:\ENVT5571\Data\Project\MyProject10\Sensitive\Sensitive.gdb"
 
-# Dynamically list all rasters produced by Code 2
+# Dynamically list all rasters produced by the sensitivity analysis
 rasters = arcpy.ListRasters()
 
 # Name of the table to store the results
