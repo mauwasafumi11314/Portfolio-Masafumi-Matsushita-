@@ -1,7 +1,7 @@
 # Python Code for Dissertation
 This repository represents Python code scripts used for the dissertation project "Spatial Vulnerability Assessment of Groundwater Contamination in the Swan Coastal Plain, Perth, Western Australia"
 
-# [Description (Click here to access the full dissertation)](https://github.com/mauwasafumi11314/Python-Code-for-Dissertation/blob/main/Dissertation.pdf)
+# [Description (click here to access the full dissertation)](https://github.com/mauwasafumi11314/Python-Code-for-Dissertation/blob/main/Dissertation.pdf)
 This study assesses groundwater vulnerability to nitrate and arsenic contamination in the Swan Coastal Plain, Western Australia, using the standardized models, DRASTIC and DRASTICL model, across three seasonal scenarios.
 
 Environmental parameters were analyzed in ArcGIS, with the robustness of the models tested through map removal sensitivity analysis and validated using the Kendall rank coefficient test.
@@ -22,7 +22,7 @@ L: Land use
 Python code scripts were used to automate the map removal sensitivity analysis and store the outputs in a table.
 
 
-# [Automation of Sensitivity Analysis(Click here)](https://github.com/mauwasafumi11314/Python-Code-for-Dissertation/blob/main/Python_Script1.py)
+# [Automation of Sensitivity Analysis (click here)](https://github.com/mauwasafumi11314/Python-Code-for-Dissertation/blob/main/Python_Script1.py)
 Sensitivity analysis evaluates how changes in each parameter affect the overall vulnerability index of the DRASTIC(L) models. For this study, map removal sensitivity analysis, as proposed by Lodwick et al. (1990), was conducted. The map removal sensitivity analysis was conducted using the following equation:
 
 $$
@@ -35,5 +35,5 @@ where:
 - \( N \) and \( n \) are the numbers of parameters corresponding to \( V \) and \( V' \).
 
 
-# [Storing Values in a Table(Click here)](https://github.com/mauwasafumi11314/Python-Code-for-Dissertation/blob/main/Python_Script2.py)
+# [Storing Values in a Table (click here)](https://github.com/mauwasafumi11314/Python-Code-for-Dissertation/blob/main/Python_Script2.py)
 After conducting the sensitivity analysis, the statistical properties of its outputs were systematically calculated. This script was then designed to automate the process of storing these statistical results into a table within a specified geodatabase.
