@@ -36,4 +36,4 @@ where:
 
 
 # [Storing Values in a Table.](https://github.com/mauwasafumi11314/Python-Code-for-Dissertation/blob/main/Python_Script2.py)
-After conducting the sensitivity analysis, the statistical properties of the DRASTIC(L) models were systematically calculated. A script was then designed to automate the process of storing these statistical results into a table within a specified geodatabase.
+After conducting the sensitivity analysis, the statistical properties of its outputs were systematically calculated. This script was then designed to automate the process of storing these statistical results into a table within a specified geodatabase.
