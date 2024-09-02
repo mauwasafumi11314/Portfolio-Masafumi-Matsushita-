@@ -1,3 +1,4 @@
+# This script represents storing values in a table.
 import arcpy
 
 # Define the workspace - adjust the path to your geodatabase or directory containing the output rasters
