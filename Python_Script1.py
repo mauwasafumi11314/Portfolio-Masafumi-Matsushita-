@@ -1,3 +1,4 @@
+# This script represents automation of sensitivity analysis
 import arcpy
 from arcpy.sa import Raster, RasterCalculator 
 arcpy.env.overwriteOutput = True
