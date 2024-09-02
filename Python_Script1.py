@@ -5,21 +5,6 @@ arcpy.env.overwriteOutput = True
 arcpy.CheckOutExtension("Spatial")  
 arcpy.env.workspace = r"D:\ENVT5571\Data\Project\MyProject10\Reclassfactors.gdb"  
 
-# The DRASTIC model is a standardized system for evaluating groundwater pollution potential using hydrogeological settings 
-# DRASTIC is an acronym for the seven parameters used in the model:
-
-# - D: Depth to water
-# - R: Net recharge
-# - A: Aquifer media
-# - S: Soil media
-# - T: Topography (slope)
-# - I: Impact of the vadose zone
-# - C: Hydraulic conductivity of the aquifer
-
-# This script performs a sensitivity analysis on DRASTIC/DRSDTICL model outputs by evaluating different scenarios, 
-# such as minimum, mean, and maximum conditions of the model's input parameters. The analysis helps to understand 
-# how land-use changes and other factors influence groundwater vulnerability assessments.
-
 # Define parameters for the DRASTIC model under minimum conditions (without land use, focusing on intrinsic vulnerability)
 DRASTICparameterMin = [
     'ReclassClip_Reclass_Reclass_GroundwaterMin2', 
